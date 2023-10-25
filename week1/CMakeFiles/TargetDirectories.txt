@@ -1,0 +1,3 @@
+C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/Step1_build.dir
+C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/ALL_BUILD.dir
+C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/ZERO_CHECK.dir

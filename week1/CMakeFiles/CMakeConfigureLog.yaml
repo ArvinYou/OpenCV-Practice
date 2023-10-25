@@ -1,0 +1,223 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 2023/10/24 下午 03:18:53。
+      節點 1 (預設目標) 上的專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:04.13
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/3.27.7/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 2023/10/24 下午 03:18:57。
+      節點 1 (預設目標) 上的專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:01.09
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/3.27.7/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-8eoga8"
+      binary: "C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-8eoga8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-8eoga8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_c49b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2023/10/24 下午 03:18:59。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-8eoga8\\cmTC_c49b1.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_c49b1.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-8eoga8\\Debug\\"。
+          正在建立目錄 "cmTC_c49b1.dir\\Debug\\cmTC_c49b1.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_c49b1.dir\\Debug\\cmTC_c49b1.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c49b1.dir\\Debug\\\\" /Fd"cmTC_c49b1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c49b1.dir\\Debug\\\\" /Fd"cmTC_c49b1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-8eoga8\\Debug\\cmTC_c49b1.exe" /INCREMENTAL /ILK:"cmTC_c49b1.dir\\Debug\\cmTC_c49b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-8eoga8/Debug/cmTC_c49b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-8eoga8/Debug/cmTC_c49b1.lib" /MACHINE:X64  /machine:x64 cmTC_c49b1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c49b1.vcxproj -> C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-8eoga8\\Debug\\cmTC_c49b1.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_c49b1.dir\\Debug\\cmTC_c49b1.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_c49b1.dir\\Debug\\cmTC_c49b1.tlog\\cmTC_c49b1.lastbuildstate"。
+        專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-8eoga8\\cmTC_c49b1.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.94
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-ypaqpf"
+      binary: "C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-ypaqpf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-ypaqpf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6a49c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2023/10/24 下午 03:19:01。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-ypaqpf\\cmTC_6a49c.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_6a49c.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-ypaqpf\\Debug\\"。
+          正在建立目錄 "cmTC_6a49c.dir\\Debug\\cmTC_6a49c.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_6a49c.dir\\Debug\\cmTC_6a49c.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6a49c.dir\\Debug\\\\" /Fd"cmTC_6a49c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6a49c.dir\\Debug\\\\" /Fd"cmTC_6a49c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-ypaqpf\\Debug\\cmTC_6a49c.exe" /INCREMENTAL /ILK:"cmTC_6a49c.dir\\Debug\\cmTC_6a49c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-ypaqpf/Debug/cmTC_6a49c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/xxx50/Desktop/OpenCV Practice/week1/CMakeFiles/CMakeScratch/TryCompile-ypaqpf/Debug/cmTC_6a49c.lib" /MACHINE:X64  /machine:x64 cmTC_6a49c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6a49c.vcxproj -> C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-ypaqpf\\Debug\\cmTC_6a49c.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_6a49c.dir\\Debug\\cmTC_6a49c.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_6a49c.dir\\Debug\\cmTC_6a49c.tlog\\cmTC_6a49c.lastbuildstate"。
+        專案 "C:\\Users\\xxx50\\Desktop\\OpenCV Practice\\week1\\CMakeFiles\\CMakeScratch\\TryCompile-ypaqpf\\cmTC_6a49c.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.93
+        
+      exitCode: 0
+...
